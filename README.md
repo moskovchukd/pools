@@ -30,12 +30,12 @@ This project powers a swimming-pool page that includes an embedded **3D model** 
 
 ```
 .
-├─ basen/                     # Your Django project (settings, urls, wsgi/asgi)
-├─ app_or_apps/               # Django apps
-├─ static/                    # Collected static (mounted to a volume in Compose)
-│  └─ models/                 # Place .gltf/.glb here (e.g., pool.gltf)
-├─ templates/                 # Django templates (uses {% static %} for assets)
-├─ locale/                    # i18n .po/.mo files
+├─ basen/                     
+├─ app_or_apps/               
+├─ static/                    
+│  └─ models/                 
+├─ templates/                 
+├─ locale/                    
 ├─ requirements.txt
 ├─ Dockerfile
 ├─ docker-compose.yml
